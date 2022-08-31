@@ -1,0 +1,5 @@
+a = float(input("Digite a nota do Primeiro Bimestre:"))
+b = float(input("Digite a nota do Segundo Bimestre:"))
+c = float(input("Digite a nota do Terceiro Bimestre:"))
+d = float(input("Digite a nota do Quarto Bimestre:"))
+print("A sua média é", (a + b + c + d) /4)

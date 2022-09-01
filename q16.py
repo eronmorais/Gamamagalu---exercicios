@@ -12,5 +12,5 @@ latas = litros/18
 latas_arredondado = round(latas + .5)
 preco = latas_arredondado*80
 
-print("Latas de tintas: ", latas_arredondado, "unidade(s)")
+print("Latas de tintas a serem compradas: ", latas_arredondado, "unidade(s)")
 print("Preço total: R$", preco)

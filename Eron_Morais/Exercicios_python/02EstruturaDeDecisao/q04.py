@@ -2,7 +2,7 @@
 
 letra = input("Digite uma letra: ")
 
-if (letra in ('aeiou') or letra in ('AEIOU')):
+if letra.lower() in 'aeiou':
     print ("É vogal")
 else:
     print("É consoante")

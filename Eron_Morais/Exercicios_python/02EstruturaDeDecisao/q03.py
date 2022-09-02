@@ -2,12 +2,10 @@
 #Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido
 
 resposta = input('Digite M ou F: ')
-if resposta == 'M':
+if resposta == 'M' or resposta == 'm':
     print('Masculino')
+elif resposta.lower() == 'f':
+    print('Feminino')
 else:
-    if resposta == 'F':
-        print('Feminino')
-    else:
-        print('Sexo Invalido')        
+    print('Sexo Invalido')        
     
-       

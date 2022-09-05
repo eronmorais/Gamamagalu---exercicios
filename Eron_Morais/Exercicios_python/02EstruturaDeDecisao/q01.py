@@ -6,4 +6,4 @@ n2 = float(input('Digite outro numero:'))
 if n1 > n2:
     print(n1)
 else:
-    print(n2)    
+    print(n2)   

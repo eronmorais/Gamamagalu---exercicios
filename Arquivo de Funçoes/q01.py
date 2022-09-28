@@ -8,7 +8,8 @@ para um n informado pelo usuário. Use uma função que receba um valor n inteir
 '''
 
 numero = int(input('Digite um numero: '))
-linha = ""
-for i in range(1,numero):
-    linha = linha + str(i) +' '
-    print(linha)
+def questao01(numero):
+    for i in range(1,numero +1):
+        print((str(i) + ' ') *i)
+
+questao01(numero)

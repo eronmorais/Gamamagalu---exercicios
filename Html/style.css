@@ -1,0 +1,21 @@
+body{
+    background-color:rgb(126, 245, 223)
+    
+}
+
+h1{
+    text-align: center;
+}
+
+*{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+        
+}    
+
+h3{
+    display: inline;
+        
+}
+
